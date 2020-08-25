@@ -5,4 +5,4 @@
 ### [Checkout my article "UPI QR Decoded!" for more info](https://pa1tech.github.io/blog/1.html "UPI QR Decoded!")
 
 <a href="https://www.youtube.com/watch?feature=player_embedded&v=qXvwXBQ5YGM" target="_blank"><img src="https://img.youtube.com/vi/qXvwXBQ5YGM/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="720" height="540" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
