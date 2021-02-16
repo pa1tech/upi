@@ -1,4 +1,4 @@
-## !ncred UPI Pay - [@incred_upibot](http://t.me/incred_upibot)
+## !ncred UPI Pay - [@incred_upibot](https://telegram.me/incred_upibot)
 Welcome to *!ncred UPI Pay!*
 
 This bot helps you to create UPI payment link and QR, which you can share with your friends to receive money
@@ -20,6 +20,6 @@ This bot has been developed in Python, built with [pyTelegramBotAPI](https://git
 QR codes are genearted using [Google Charts API](https://developers.google.com/chart/infographics/docs/qr_codes)
 
 *More Info:*
-*+* [What's encoded in a UPI QR?](https://pa1tech411.blogspot.com/2020/04/upi-qr.html)
-*+* [Source code of the link generated](https://github.com/pa1tech/upi/)
-*+* [Source code of the bot](https://github.com/pa1tech/upi/tree/master/incred_upibot)
+* [What's encoded in a UPI QR?](https://pa1tech411.blogspot.com/2020/04/upi-qr.html)
+* [Source code of the link generated](https://github.com/pa1tech/upi/)
+* [Source code of the bot](https://github.com/pa1tech/upi/tree/master/incred_upibot)
