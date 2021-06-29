@@ -20,6 +20,6 @@ This bot has been developed in Python, built with [pyTelegramBotAPI](https://git
 QR codes are genearted using [Google Charts API](https://developers.google.com/chart/infographics/docs/qr_codes)
 
 *More Info:*
-* [What's encoded in a UPI QR?](https://pa1tech411.blogspot.com/2020/04/upi-qr.html)
+* [What's encoded in a UPI QR?](https://pa1tech.github.io/blog/upi)
 * [Source code of the link generated](https://github.com/pa1tech/upi/)
 * [Source code of the bot](https://github.com/pa1tech/upi/tree/master/incred_upibot)
