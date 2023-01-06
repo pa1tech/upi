@@ -1,0 +1,70 @@
+<!-- https://davidshimjs.github.io/qrcodejs/ -->
+<head>
+
+	<title> !ncredible UPI Pay </title>
+	<link rel="shortcut icon" href="https://pa1tech.github.io/favicon.ico">
+	<meta property="og:title" content="!ncred UPI Pay" />
+	<meta property="og:image" content="https://pa1tech.github.io/logo.jpg" />
+	<meta property="og:url" content="https://pa1tech.github.io/" />	
+	<meta property="og:description" content="Digital India | UPI powered by NPCI" />
+	
+	<script src="js/qrcode.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	
+	<script>
+	function myf(){
+	
+	  var inp = window.location.href.split('?')[1];
+	  var inp2 = inp.split('&')[0];
+	  var inp1 = "upi://pay?pa=";
+	  //var inp3 = "&pn=Whomsoever&tn=DigitalIndia";
+	//var inp3 = "&pn=Whomsoever&tn=DigitalIndia&cu=INR&mc=0000&tid=abcdef&tr=000abcd123&refUrl=https://github.com/&orgid=000000";
+	  var inp3 = "&pn=Whomsoever&tn=DigitalIndia&cu=INR&mc=0000&mode=02&orgid=000000";
+	  var final = inp1.concat(inp2,inp3);
+
+	  if ( inp.split('&').length == 2 ){
+	     var final = final.concat("&am=",inp.split('&')[1]);
+	  };
+	  console.log(final);
+
+
+	  if ( (window.screen.width<800) ){
+	     window.location = final;
+	  };
+	  
+	  var qrcode = new QRCode("qrcode");
+	  qrcode.makeCode(final);
+	};
+	
+	$(window).on('load', function() { 
+	  setTimeout(myf,1100);
+	});
+	
+	</script>
+</head>
+
+
+<h3>Pay from any UPI app</h3>
+<div id="qrcode"></div>
+
+<style>
+h3{
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #ee682a;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#qrcode{
+  position: absolute;
+  z-index: -1;
+  width: auto;
+  height: auto;
+  left: 40%;
+  top: 30%;
+}
+</style>
